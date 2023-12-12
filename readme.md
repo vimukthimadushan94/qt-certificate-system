@@ -45,3 +45,6 @@ You can run tests from below command inside backend folder
 cd qt-certificate-system/backend
 npm run test
 ```
+## Project Structure
+You can find the project structure via below link
+https://docs.google.com/document/d/1PaiJGiAhs3sJR7WNQ6PRG4Aq0W_YbcZYdgDgW0cuXo0/edit?usp=sharing

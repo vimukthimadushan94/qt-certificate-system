@@ -33,6 +33,10 @@ const router = express.Router()
  *         id: 1
  *         name: test certificate name
  *         email: test@gmail.com
+ *         certificate_id: 785196072157,
+ *         file_name: qt_certificate-1702310597641.txt
+ *         createdAt: 2023-12-11T16:03:17.643Z
+ *         updatedAt: 2023-12-11T16:03:17.643Z
 */
 
 
@@ -71,7 +75,7 @@ const router = express.Router()
  *             schema:
  *               $ref: '#/components/schemas/Certificate'
  *       500:
- *         description: Some server error
+ *         description: Something went wrong!
  * /api/certificate/{certificateId}:
  *   delete:
  *     summary: Remove the certificate by id
